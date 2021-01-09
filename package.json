@@ -1,0 +1,25 @@
+{
+  "name": "casa-de-cambio",
+  "version": "1.0.0",
+  "description": "Pequeña web que muestra que muestra el valor de una moneda con respecto a otra, ingresando fecha y base",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiespindd/casa-de-cambio-v1.git"
+  },
+  "keywords": [
+    "casa",
+    "de",
+    "cambio"
+  ],
+  "author": "santi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiespindd/casa-de-cambio-v1/issues"
+  },
+  "homepage": "https://github.com/santiespindd/casa-de-cambio-v1#readme",
+  "dependencies": {}
+}
