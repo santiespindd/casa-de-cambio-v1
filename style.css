@@ -6,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
 
 }
+body {
+    background: url('fondo.png') center center no-repeat;
+  
+ 
+}
 
 #titulo{
     text-align: center;
@@ -17,8 +22,25 @@
     margin-top: 3%;
     display: flex;
     justify-content: center;
+   
   
 }
+#boton {
+   
+    margin-left: 2%;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    outline: none;
+  }
+  #boton:hover{
+    background-color: darkgreen;
+  }
 
 h3{
     margin-right: 1%;
@@ -46,6 +68,10 @@ th {
     color: white;
   }
 
+  .oculto {
+    display:  none;
+}
+
   @media only screen and (max-width: 600px){
       
       .caja-select{
@@ -53,9 +79,14 @@ th {
           justify-content: center;
       
       }
+      #boton{
+          width: 25%;
+          margin: auto;
+      }
      h1, select,input{
           margin: 2%;
       }
      
 
   }
+
