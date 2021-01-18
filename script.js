@@ -1,6 +1,4 @@
 
-
-
 inicializar();
 
 function obtenerCambios(base = 'EUR', fecha = 'latest'){
